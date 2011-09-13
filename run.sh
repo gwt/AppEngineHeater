@@ -1,0 +1,4 @@
+#!/bin/sh
+DEPENDENDIES="libs/apache-mime4j-0.6.jar:libs/bsh-1.3.0.jar:libs/cglib-nodep-2.1_3.jar:libs/commons-codec-1.4.jar:libs/commons-collections-3.2.1.jar:libs/commons-io-2.0.1.jar:libs/commons-jxpath-1.3.jar:libs/commons-lang-2.6.jar:libs/commons-logging-1.1.1.jar:libs/cssparser-0.9.5.jar:libs/guava-r09.jar:libs/hamcrest-all-1.1.jar:libs/htmlunit-2.9.jar:libs/htmlunit-core-js-2.9.jar:libs/httpclient-4.1.2.jar:libs/httpcore-4.1.2.jar:libs/httpmime-4.1.2.jar:libs/jcommander-1.13.jar:libs/jna-3.3.0.jar:libs/json-20080701.jar:libs/junit-dep-4.8.1.jar:libs/nekohtml-1.9.15.jar:libs/operadriver-v0.6.jar:libs/protobuf-java-2.3.0.jar:libs/sac-1.3.jar:libs/serializer-2.7.1.jar:libs/testng-6.0.1-nobsh-noguice.jar:libs/xalan-2.7.1.jar:libs/xercesImpl-2.9.1.jar:libs/xml-apis-1.3.04.jar"
+
+java -cp heater.jar:$DEPENDENDIES HeaterCLI $*

@@ -5,6 +5,13 @@ public class HeaterCLI {
 			final Heater h = new Heater();
 			while (true)
 				h.keepHot(url, 60 * 1000);
+		} else {
+			printUsage();
 		}
+	}
+
+	private static void printUsage() {
+		System.out.println("./run.sh <URL>");
+		System.out.println("         Press CTRL+C to cancel heating the URL.");
 	}
 }
